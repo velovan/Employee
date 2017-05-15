@@ -76,8 +76,7 @@ public class MainEmployee {
 				}
 			}
 		}
-
-		// Зчитування із файлу
+		
 		readerFileArr1();
 	}
 
