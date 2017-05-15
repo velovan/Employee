@@ -62,7 +62,7 @@ public class MainEmployee {
 				writer.write(Integer.toString(emp.getId()) + " | ");
 				writer.write(Integer.toString((int) emp.getMonthlySalary()) + " | ");
 
-				// тут міг би бути пробіл якщо треба в одну строку
+			 
 				writer.write(System.getProperty("line.separator"));
 			}
 			writer.flush();
