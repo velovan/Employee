@@ -50,18 +50,15 @@ public class MainEmployee {
 			System.out.println("First Name: " + emp.getFirstName() + "," + " Last Name: " + emp.getLastName() + ","
 					+ " ID: " + emp.getId() + "," + "Salary: " + emp.getMonthlySalary());
 		}
-
-		// Запис в Файл
+  
 		Writer writer = null;
-		try {
-			// writer = new FileWriter("E:\\JAVA\\journal.txt");
+		try { 
 			writer = new FileWriter("journal.txt");
 			for (Employee emp : coll) {
 				writer.write(emp.getFirstName() + " | ");
 				writer.write(emp.getLastName() + " | ");
 				writer.write(Integer.toString(emp.getId()) + " | ");
 				writer.write(Integer.toString((int) emp.getMonthlySalary()) + " | ");
-
 			 
 				writer.write(System.getProperty("line.separator"));
 			}
