@@ -63,5 +63,6 @@ public abstract class Employee {
 	}
 
 	public abstract double getMonthlySalary();
+	
 
 }
