@@ -48,8 +48,8 @@ public class MainEmployee {
 		Collections.sort(coll, new EmployeeComparator());
 
 		for (Employee emp : coll) {
-			System.out.println("First Name: " + emp.getFirstName() + "," + " Last Name: " + emp.getLastName() + ","
-					+ " ID: " + emp.getId() + "," + "Salary: " + emp.getMonthlySalary());
+			System.out.println("First Name: " + emp.getFirstName() + "," + " Last Name: " + emp.getLastName() + "," + " ID: " 
+					   + emp.getId() + "," + "Salary: " + emp.getMonthlySalary());
 		}
   
 		Writer writer = null;
