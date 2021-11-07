@@ -20,6 +20,7 @@ public class EmployeeFixedPayment extends Employee {
 	@Override
 	public double getMonthlySalary() {
 		// TODO Auto-generated method stub
+		
 		return fixedPayment;
 	}
 
