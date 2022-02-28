@@ -18,14 +18,14 @@ public abstract class Employee {
 	}
 
 	/**
-	 * @return the firstName
+	   @return the firstName
 	 */
 	public String getFirstName() {
 		return firstName;
 	}
 
 	/**
-	 * @param firstName
+	   @param firstName
 	 *            the firstName to set
 	 */
 	public void setFirstName(String firstName) {
@@ -33,7 +33,7 @@ public abstract class Employee {
 	}
 
 	/**
-	 * @return the lastName
+	   @return the lastName
 	 */
 	public String getLastName() {
 		return lastName;
@@ -63,6 +63,5 @@ public abstract class Employee {
 	}
 
 	public abstract double getMonthlySalary();
-	
 
 }
