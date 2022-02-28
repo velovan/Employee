@@ -26,7 +26,7 @@ public abstract class Employee {
 
 	/**
 	   @param firstName
-	 *            the firstName to set
+	             the firstName to set
 	 */
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -63,5 +63,4 @@ public abstract class Employee {
 	}
 
 	public abstract double getMonthlySalary();
-
 }
