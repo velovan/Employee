@@ -9,9 +9,10 @@ public class EmployeeComparator implements Comparator<Employee> {
 
 		int salaryCompare = Double.compare(e2.getMonthlySalary(), e1.getMonthlySalary());
 		if (salaryCompare != 0) {
-			return salaryCompare;
+		   return salaryCompare;
 		}
 
-		return e1.getFirstName().compareTo(e2.firstName);
+		   return e1.getFirstName().compareTo(e2.firstName);
 	}
+	
 }
