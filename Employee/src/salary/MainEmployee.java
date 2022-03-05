@@ -49,9 +49,8 @@ public class MainEmployee {
 
 		for (Employee emp : coll) {
 			System.out.println("First Name: " + emp.getFirstName() + "," + " Last Name: " + emp.getLastName() + "," + " ID: " 
-					   + emp.getId() + "," + "Salary: " + emp.getMonthlySalary());
+			+ emp.getId() + "," + "Salary: " + emp.getMonthlySalary());
 		}
-  
 		Writer writer = null;
 		try { 
 			writer = new FileWriter("journal.txt");
